@@ -7,8 +7,8 @@
 import random
 
 goal_value = 100
-dice_throw_per_round = 10
-rounds_of_simulations = 100
+dice_throw_per_round = 20
+rounds_of_simulations = 100000
 dice_value = random.randint(1, 6)
 rounds_counter = 0
 points_round = 0
